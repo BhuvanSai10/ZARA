@@ -34,6 +34,7 @@
 }
 .forgot-password{
     color: gray;
+    cursor: pointer;
 }
 
 .user-register{

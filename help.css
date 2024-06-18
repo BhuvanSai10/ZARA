@@ -1,0 +1,96 @@
+.nav-left{
+    position: fixed;
+    z-index: 1000;
+}
+.nav-right{
+    position: fixed;
+    z-index: 1000;
+    left: 60%;
+}
+
+.help-content-container{
+    margin-top: 147px;
+}
+.help-top{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/help.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.help-top input{
+    width: 700px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 50%;
+    border: 1px solid black;
+}
+
+.help-top input::placeholder{
+    font-size: 12px;
+}
+
+h4{
+    margin-bottom: 40px;
+}
+.other-help{
+    width: 83%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+.help-middle{
+    width: 60%;
+    padding: 20px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.question{
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.help-bottom{
+    padding: 20px;
+
+}
+
+.help-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.help-box{
+    border: 1px solid black;
+    width: 200px;
+    height: 120px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+.help-box span{
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.head-help{
+    font-size:14px ;
+    margin-bottom: 20px;
+    cursor: initial;
+}
+

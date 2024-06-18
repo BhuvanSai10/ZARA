@@ -30,6 +30,10 @@
     border-radius: 2px;
     cursor: pointer;
 }
+.item-img:hover{
+    transition: 0.4s all ease-in-out;
+    transform: translateY(-8%);
+}
 
 .add-to-bag{
     border: 1px solid black;

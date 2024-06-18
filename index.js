@@ -124,3 +124,11 @@ function homePage(){
 function openBestSellers(){
     window.location.href = "bestSellers.html";
 }
+
+function openShoppingBag(){
+    window.location.href = "shoppingBag.html";
+}
+
+function openHelp(){
+    window.location.href = "help.html";
+}

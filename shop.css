@@ -1,0 +1,155 @@
+.nav-left{
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-right{
+    position: fixed;
+    z-index: 1000;
+    left: 60%;
+}
+.main{
+    width: 85%;
+    margin-top: 8%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-left{
+    margin-top: 335px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px 10px 20px 10px;
+}
+
+.text{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.view-more{
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.view-more:hover{
+    text-decoration: underline;
+}
+.context{
+    padding: 5px;
+    font-size: 13px;
+}
+
+.main-center{
+    width:400px;
+    height: 550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.main-center img{
+    width: 400px;
+    display: block;
+}
+.main-center::-webkit-scrollbar {
+    width: 1px; /* Decrease width of the scrollbar */
+}
+.main-center::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px; /* Make scrollbar thumb rounded */
+}
+
+
+.main-right{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.item-details{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding: 10px 5px 10px 5px;
+}
+
+.item-name{
+    padding: 5px;
+    font-size: 12px;
+}
+.item-price{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.item-description{
+    font-size: 11px;
+    padding: 5px;
+}
+
+.extra-text{
+    font-size: 11px;
+    color: gray;
+    padding: 5px;
+}
+.item-sizes{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding: 10px 5px 10px 5px;
+}
+
+.color{
+    font-size: 12px;
+    padding: 5px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 120px;
+    height: 25px;
+    margin: 4px;
+    font-size: 11px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgb(223, 219, 219);
+}
+.box:active{
+    background-color: black;
+    color: white;
+}
+
+.help span{
+    font-size: 10px;
+    color:gray;
+}
+
+.add-to-bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-to-bag:hover{
+    background-color: rgb(223, 219, 219);
+}

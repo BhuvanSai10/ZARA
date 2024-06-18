@@ -202,6 +202,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })
 
+function openShop(){
+    window.location.href='shop.html';
+}
 
 
 

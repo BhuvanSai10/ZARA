@@ -8,6 +8,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
+    <link rel="stylesheet" href="shoppingBag.css">
 </head>
 <body>
     <div class="container">
@@ -35,10 +36,55 @@
                 <div class="options-section">
                     <span onclick="openPage()"><a href="#">LOGIN</a></span>
                     <span onclick="openHelp()"><a href="#">HELP</a></span>
-                    <span onclick="openShoppingBag()"><a href="#">SHOPPING BAG</a></span>
+                    <span><a href="#">SHOPPING BAG</a></span>
                 </div>
             </div>
         </div>
+
+        <!-- <div class="shopping-bag-container">
+            <div class="heading">
+                SHOPPING BAG
+            </div>
+            <div class="selected-item-container">
+                <div class="item-img">
+                    <img src="images/collection/s1/8.jpg" alt="">
+                </div>
+                <div class="item-details-container">
+                    <div class="item-details">
+                        <span class="item-name">SHIRT</span>
+                        <span class="item-price">2990</span>
+                        <span class="item-size">S</span>
+                        
+                    </div>
+                    <div class="no-of-items">
+                        <div  class="minus box">-</div>
+                        <div class="count box">1</div>
+                        <div class="add box">+</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>  -->
+        <div class="shopping-bag-total-container hide">
+            <div  class="shopping-bag-total">
+                <div class="first-div">
+                    <div class="pricing-condition">
+                        * By continuing, I declare that I have read and accept the Purchase Conditions and understand Zara's Privacy and Cookie Policy.
+                    </div>
+                    <div class="bag-total-price">
+                        <div class="price"></div>
+                        <div class="condition">INCLUDING GST * </div>
+                        <div class="condition">EXCL SHIPPING COST</div>
+    
+                    </div>
+                </div>
+                
+                <div class="continue">
+                    <span>CONTINUE</span>
+                </div>
+            </div>
+        </div>
+       
 
         <div class="footer-container">
             <div class="footer-top">
@@ -118,6 +164,7 @@
         </div>
     </div>
     <script src="index.js"></script>
+    <script src="shoppingBag.js"></script>
     
 </body>
 </html>
