@@ -1,0 +1,68 @@
+/*   styling for login.html   */ 
+
+
+.login-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.login-area *{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.login-text{
+    font-size: 15px;
+}
+.login-area input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 6px;
+}
+
+.login{
+    height: 40px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.login:hover{
+    color: gray;
+}
+.forgot-password{
+    color: gray;
+}
+
+.user-register{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 34%;
+    width: 380px;
+    height: 72px;
+}
+
+.register-text{
+    font-style: 15px;
+    margin-bottom: 15px;
+}
+
+.register{
+    width: 380px;
+    height: 40px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.register:hover{
+    color: gray;
+}
+
+.hide{
+    display: none;
+}
